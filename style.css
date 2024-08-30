@@ -1,0 +1,43 @@
+/* importa a fonte Montserrat do Google Fonts, que é utilizada para garantir uma tipografia moderna e legível no projeto */
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+/* define uma borda sólida de 1 pixel de espessura e preta para as tabelas, cabeçalhos (th) e células (td) */
+table, th, td {
+  border: 1px solid black; /* A borda ajuda a separar visualmente os dados na tabela, facilitando a leitura */
+}
+
+/* define o preenchimento interno das células da tabela */
+th, td {
+  padding: 12px; /* o padding proporciona espaço interno, melhorando a legibilidade do conteúdo dentro das células */
+}
+
+/* estiliza os cabeçalhos da tabela (th) */
+th {
+  font-size: 22px; /* aumenta o tamanho da fonte dos cabeçalhos para destacá-los em relação ao restante da tabela */
+  font-family: Montserrat, sans-serif; /* aplica a fonte Montserrat para manter a consistência visual com o resto do projeto */
+}
+
+/* estiliza as imagens */
+img {
+  margin-top: 16px; /* Adiciona uma margem superior para separar a imagem de outros elementos acima dela */
+  margin: auto; /* Centraliza a imagem horizontalmente no contêiner pai */
+  display: block; /* Define o display como block para permitir o uso de margin auto e garantir o alinhamento correto */
+  width: 30%; /* Define a largura da imagem em 30% do contêiner pai, permitindo que se adapte a diferentes tamanhos de tela */
+}
+
+/* estiliza os cabeçalhos de segundo nível (h2) */
+h2 {
+  text-align: center; /* Centraliza o texto, proporcionando uma apresentação mais atraente e organizada para títulos */
+}
+
+/* estiliza os parágrafos (p) */
+p {
+  text-align: center; /* Centraliza o texto dos parágrafos, o que é útil para manter a consistência com o estilo dos cabeçalhos */
+  text-indent: 0; /* Remove a indentação do texto, que pode ser desnecessária em um layout centralizado */
+}
+
+/* estiliza os links (a) */
+a {
+  text-align: center; /* centraliza o texto do link, mantendo a coerência com a formatação dos títulos e parágrafos */
+  color: blue; /* define a cor azul para links, uma escolha clássica e amplamente reconhecida que indica interatividade */
+}
